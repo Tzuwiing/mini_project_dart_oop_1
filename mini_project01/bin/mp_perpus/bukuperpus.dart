@@ -2,7 +2,7 @@ import 'peminjaman.dart';
 import 'buku.dart';
 
 class BukuPerpus extends Buku implements Peminjaman {
-  BukuPerpus(String judul, int stok) : super(judul, stok);
+  BukuPerpus(super.judul, super.stok);
 
   @override
   void showInfo2() {
