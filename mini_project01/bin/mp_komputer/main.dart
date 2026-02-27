@@ -3,10 +3,10 @@ import 'pcgaming.dart';
 import 'pcoffice.dart';
 
 void main() {
-  print("=== SISTEM TOKO KOMPUTER HAHAHIAHIHAHYAU ===\n");
+  print("=== SISTEM TOKO HAHAHIAHIHAHYAUHAYAHAUHUAHU ===\n");
   Laptop macbook = Laptop("MacBook Pro M3", 25000000, 5)
     ..biayaGaransi = 1000000
-    ..persenDiskon = 10
+    ..persenDiskon = 1.7
     ..tampilkanInfo();
 
   PcGaming gamingPc = PcGaming("Alienware Aurora R15", 35000000, 3)

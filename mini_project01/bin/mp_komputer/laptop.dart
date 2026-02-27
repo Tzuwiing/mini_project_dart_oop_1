@@ -15,7 +15,7 @@ class Laptop extends Produk with Diskon, GaransiTambahan {
     super.tampilkanInfo(); 
     
     if (persenDiskon > 0) {
-      print("Diskon      : $persenDiskon%");
+     print("Diskon      : ${persenDiskon % 1 == 0 ? persenDiskon.toInt() : persenDiskon}%");
      
       print("Potongan    : ${formatRupiah(harga - hitungTotalHarga() + biayaGaransi)}");
     }
